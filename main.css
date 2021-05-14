@@ -1,0 +1,164 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+body{
+    width: 100%;
+    height: 100vh;
+    background: silver;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.wrapper{
+    width: 500px;
+    padding: 10px 15px;
+}
+
+.sign-up{
+    text-align: center;
+}
+
+.sign-up h1{
+    margin-bottom: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 400;
+}
+
+
+.main-form{
+    margin-bottom: 20px;
+}
+
+
+.input-form input{
+    width: 100%;
+    padding: 15px 0 15px 15px;
+    margin-top: 25px;
+    border-radius: 5px;
+    border: 0;
+}
+
+
+.input-form input:focus{
+    outline: 1px solid rgb(50, 50, 204);
+}
+
+.sign-up-button button{
+    display: block;
+}
+
+.button{
+    width: 100%;
+    padding: 20px 0;
+    border: 0;
+    border-radius: 10px;
+    background: blue;
+    color: #fff;
+    font-size: 24px;
+}
+
+.sign-in{
+    display: none;
+}
+
+.button:hover{
+    background: rgb(3, 3, 116);
+}
+
+.to-sign-in{
+    background: none;
+    border: 0;
+    margin-top: 10px;
+    font-size: 18px;
+    cursor: pointer;
+}
+
+.to-sign-in:hover{
+    text-decoration: underline;
+}
+
+.sign-in{
+    text-align: center;
+}
+
+.sign-in h3{
+    margin-bottom: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 400;
+}
+
+
+.green{
+    background: rgb(1, 126, 59);
+}
+
+.green:hover{
+    background:rgb(1, 71, 34);
+}
+
+
+.to-sign-up{
+    background: none;
+    border: 0;
+    margin-top: 10px;
+    font-size: 18px;
+    cursor: pointer;
+}
+
+.to-sign-up:hover{
+    text-decoration: underline;
+}
+
+.profile-card{
+    width: 100%;
+    min-height: 300px;
+    padding: 15px 20px;
+    background: #fff;
+    position: relative;
+    display: none;
+}
+
+.profile-image{
+    width: 150px;
+    height: 150px;
+    margin: 0 auto;
+    background-image: url(https://thumbs.dreamstime.com/b/happy-smiling-geek-hipster-beard-man-cool-avatar-geek-man-avatar-104871313.jpg);
+    background-size: cover;
+    background-position: center;
+    border-radius: 100%;
+}
+
+.profile-sign-up{
+    width: 100%;
+    padding: 15px 0;
+    background:rgb(1, 126, 59);
+    color: #fff;
+    font-size: 24px;
+    border: 0;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+}
+
+.profile-sign-up:hover{
+    background: rgb(1, 71, 34);
+}
+
+
+.profile-name{
+    text-align: center;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.profile-email{
+    text-align: center;
+    font-size: 20px;
+    color: rgb(138, 136, 136);
+}

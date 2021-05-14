@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="main.css">
+    <title>Document</title>
+</head>
+
+<body>
+
+    <div class="wrapper">
+        <div class="sign-up">
+            <h1>Please sign up</h1>
+            <div class="main-form">
+                <div class="input-form">
+                    <input type="text" placeholder="First name" class="first-name" pattern="[A-Z|a-z]{3,15}">
+                </div>
+                <div class="input-form">
+                    <input type="text" placeholder="Last name" class="last-name" pattern="[A-Z|a-z]{3,15}">
+                </div>
+                <div class="input-form">
+                    <input type="text" placeholder="Email address" class="email" pattern="[A-Z|a-z|0-9]{4,16}@(gmail\.com|ukr\.net|yandex\.ru)">
+                </div>
+                <div class="input-form">
+                    <input type="password" placeholder="Password" class="password" pattern="[A-Z|a-z|0-9]{3,15}">
+                </div>
+            </div>
+            <div class="main-button">
+                <div class="sign-up-button">
+                    <button class="button">Sign up</button>
+                    <button class="to-sign-in">Sign in now</button>
+                </div>
+            </div>
+        </div>
+        <div class="sign-in">
+            <h3>Please sign in</h3>
+            <div class="main-form">
+                <div class="input-form">
+                    <input type="text" placeholder="Email address" class="sign-in-email">
+                </div>
+                <div class="input-form">
+                    <input type="password" placeholder="Password" class="sign-in-password">
+                </div>
+            </div>
+            <div class="main-button">
+                <div class="sign-up-button">
+                    <button class="button green">Sign in</button>
+                    <button class="to-sign-up">Sign up now</button>
+                </div>
+            </div>
+        </div>
+        <div class="profile-card">
+            <div class="profile-image"></div>
+            <div class="profile-name"></div>
+            <div class="profile-email"></div>
+            <div class="profile-button">
+                <button class="profile-sign-up">Sign up</button>
+            </div>
+        </div>
+    </div>
+
+
+    <script src="main.js"></script>
+</body>
+
+</html>
